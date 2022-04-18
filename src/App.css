@@ -1,0 +1,46 @@
+.app {
+  height: 100vh;
+  display: flex;
+  background-color: #020230;
+  color: aliceblue;
+}
+
+.main {
+  width: 75%;
+  height: auto;
+  background: url(/src/assets/millionaire-background.jpeg) center;
+}
+
+.pyramid {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.money-list {
+  list-style: none;
+  width: 100%;
+  padding: 20px;
+}
+
+.money-list-item {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.money-list-item.active {
+  background-color: teal;
+}
+.money-list-item__number {
+  font-size: 18px;
+  font-weight: 100;
+  width: 30%;
+}
+
+.money-list-item__amount {
+  font-size: 20px;
+  font-weight: 300;
+}
